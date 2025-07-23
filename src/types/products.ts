@@ -3,10 +3,9 @@ export interface Product {
   name: string;
   slug: string;
   price: number;
-  image: string;
+  images: string[];
   description: string;
   specifications: {
-    brand: string;
     [key: string]: string | number | undefined;
   };
 }

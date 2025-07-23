@@ -48,7 +48,7 @@ export function ProductGrid({ products }: { products: Product[] }) {
                       blurDataURL={`data:image/svg+xml;base64,${toBase64(
                         shimmer(300, 150)
                       )}`}
-                      src={product.image}
+                      src={product.images[0]}
                       alt={product.name}
                       width={300}
                       height={150}

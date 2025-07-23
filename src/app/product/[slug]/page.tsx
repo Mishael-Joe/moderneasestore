@@ -24,7 +24,7 @@ export async function generateMetadata(props: Props) {
   }
 
   const productName = product.name;
-  const productImage = product.image;
+  const productImage = product.images;
   const productDescription =
     product.description?.substring(0, 160) ||
     "Discover high-quality products on Udua";
@@ -66,7 +66,7 @@ export default async function ProductDetailsPage({
   return (
     <section className="max-w-6xl mx-auto p-4 space-y-16">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-        <ProductImage src={product.image} alt={product.name} />
+        <ProductImage src={product.images} alt={product.name} />
         <div>
           <ProductInfo product={product} />
           <ProductSpecs specifications={product.specifications} />
