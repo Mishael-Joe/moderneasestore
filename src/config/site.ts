@@ -34,7 +34,7 @@ export const products = [
     id: "1",
     name: "Modern Ease FULL HD MINI BODYCAMERA",
     slug: "modern-ease-full-hd-mini-bodycamera",
-    price: 2750000,
+    price: 3300000,
     images: ["/products/camera_1.jpg"],
     description:
       "Compact. Powerful. Built for precision. Capture every detail in stunning 1080P Full HD whether it's day or night. Features night vision, 7-hour battery life, and smart design for on-the-go use.",
@@ -56,7 +56,7 @@ export const products = [
     id: "2",
     name: "HD Mini DV Camera",
     slug: "hd-mini-dv-camera",
-    price: 1590000,
+    price: 1600000,
     images: ["/products/camera_2.jpg"],
     description:
       "Capture every moment in crisp 480P video. Lightweight and pocket-sized, this HD Mini DV Camera is perfect for home, office, or on-the-go use. Supports expandable storage up to 64GB.",
@@ -72,7 +72,7 @@ export const products = [
     id: "3",
     name: "Mini Ice Mist Air Conditioning Fan",
     slug: "mini-ice-mist-air-conditioning-fan",
-    price: 3450000,
+    price: 13000000,
     images: ["/products/AC_2.jpg", "/products/AC_1.jpg"],
     description:
       "Triple-tech cooling with semiconductor chill, high-speed airflow, and mist spray. Ultra-quiet and rechargeable with 6000mAh battery for up to 15 hours. Includes dual mist ports and 3 wind modes.",
